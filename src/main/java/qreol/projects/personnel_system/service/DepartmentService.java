@@ -15,4 +15,6 @@ public interface DepartmentService {
 
     List<Department> getSubDepartments(Long id);
 
+    List<Department> getAll();
+
 }

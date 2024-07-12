@@ -25,6 +25,11 @@ public class DepartmentController {
         return ResponseEntity.ok(departmentService.save(department, parentDepartmentId));
     }
 
+    @GetMapping
+    public ResponseEntity<List<Department>> getAll() {
+        return ResponseEntity.ok(departmentService.getAll());
+    }
+
     @GetMapping("/all")
     public ResponseEntity<List<Department>> getAllDepartmentsByDate(
             @RequestParam @DateTimeFormat(pattern = "yyyy-MM-dd") Date date) {
