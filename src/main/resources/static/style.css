@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.department {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.department h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+}
+.department ul {
+    list-style: none;
+    padding: 0;
+}
+.department ul li {
+    margin: 5px 0;
+}
+.employee {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 5px 0;
+}
+.sub-department {
+    margin-left: 20px;
+    padding-left: 10px;
+    border-left: 2px solid #ccc;
+}
+
+.record {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.record h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+}
+.record ul {
+    list-style: none;
+    padding: 0;
+}
+.record ul li {
+    margin: 5px 0;
+}
+.employee {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 5px 0;
+}
+.employee-info {
+    margin-left: 20px;
+}
